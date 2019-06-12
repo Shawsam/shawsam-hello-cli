@@ -1,10 +1,10 @@
 {
   "name": "shawsam-hello-cli",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "my first npm demo",
   "main": "index.js",
   "bin": {
-    "shawsam-hello-cli": "bin/index.js"
+    "shawsam-hello": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,5 +16,14 @@
   "dependencies": {
     "commander": "^2.20.0",
     "shelljs": "^0.8.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shawsam/shawsam-hello-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Shawsam/shawsam-hello-cli/issues"
+  },
+  "homepage": "https://github.com/Shawsam/shawsam-hello-cli#readme"
 }
