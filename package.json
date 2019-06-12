@@ -1,0 +1,20 @@
+{
+  "name": "shawsam-hello-cli",
+  "version": "1.0.1",
+  "description": "my first npm demo",
+  "main": "index.js",
+  "bin": {
+    "shawsam-hello-cli": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hello": "node index.js"
+  },
+  "keywords": [],
+  "author": "shawsam",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "shelljs": "^0.8.3"
+  }
+}
