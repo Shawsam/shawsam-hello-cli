@@ -8,6 +8,8 @@ var run= function (obj) {
     }else if(obj[0] === '-h'){
         console.log('Useage:');
         console.log('  -v --version [show version]');
+    }else if(obj[0] === 'init'){
+        console.log('初始化项目')
     }else{
         fs.readdir(path, function(err, files){
             if(err){
