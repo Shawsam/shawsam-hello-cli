@@ -10,7 +10,7 @@ const path = require('path');
 const cwdpath = process.cwd();
 
 program
-    .version('1.0.0', '-v, --version')
+    .version('1.0.2', '-v, --version')
     .command('init [name]')
     .description('项目初始化')
     .option('--debug','开启debug')
